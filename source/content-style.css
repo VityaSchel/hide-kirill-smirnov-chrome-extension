@@ -1,0 +1,35 @@
+body[data-cleaner_extension_enabled="true"] div[data-peer='354970182']{
+  height: 15px;
+  overflow: none;
+}
+
+body[data-cleaner_extension_enabled="true"] div[data-peer='354970182']::before {
+  content: '';
+  width: 100px;
+  height: 1px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
+body[data-cleaner_extension_enabled="true"] div[data-peer='354970182'] > * {
+  display: none;
+}
+
+
+
+body[data-cleaner_extension_enabled="true"] div[data-peer='354970182']:hover::before {
+  opacity: 0;
+}
+
+body[data-cleaner_extension_enabled="true"] div[data-peer='354970182']:hover {
+  height: fit-content;
+  overflow: unset;
+  border-top: unset;
+}
+
+body[data-cleaner_extension_enabled="true"] div[data-peer='354970182']:hover > * {
+  display: unset;
+}
