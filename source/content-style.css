@@ -1,4 +1,7 @@
 body[data-cleaner_extension_enabled="true"] div[data-peer='354970182']{
+  width: 200px;
+  margin-left: 50%;
+  transform: translateX(-50%);
   height: 15px;
   overflow: none;
 }
@@ -28,6 +31,9 @@ body[data-cleaner_extension_enabled="true"] div[data-peer='354970182']:hover {
   height: fit-content;
   overflow: unset;
   border-top: unset;
+  width: unset;
+  margin-left: unset;
+  transform: unset;
 }
 
 body[data-cleaner_extension_enabled="true"] div[data-peer='354970182']:hover > * {
