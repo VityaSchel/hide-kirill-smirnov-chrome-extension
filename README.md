@@ -1,4 +1,6 @@
 # Уборщица
+**[Chrome webstore](https://chrome.google.com/webstore/detail/уборщица/pbkimmanmhebbfdphpkjpdkolihanmah)** - скачать расширение в магазине Chrome (бесплатно)
+
 **[packaged.crx](/packaged.crx)** — запакованное расширение в crx файл\
 **[source](/source/)** — папка с исходным кодом, именно ее стоит добавить в chrome как распакованное расширение
 
